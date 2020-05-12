@@ -2,6 +2,6 @@
 
 This repository contain example programs and homework files.
 
-Course Materials: 
+Course Materials: https://drive.google.com/drive/u/1/folders/1dlO0yb41DpvgK1IymtmkMYljfKDxPGRR
 
 Contact: Ben Grudzien: bgrudzien@oakland.edu
