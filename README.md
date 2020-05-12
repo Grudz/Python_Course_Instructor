@@ -1,4 +1,5 @@
-## Python Course - Summer 2020 - Professor: Ben Grudzien
+## Python Course - Summer 2020 
+### Professor: Ben Grudzien
 
 This repository contain example programs and homework files.
 
