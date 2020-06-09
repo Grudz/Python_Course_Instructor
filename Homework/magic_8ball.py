@@ -1,10 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jun  7 11:54:36 2020
-@author: alyxandrahoberg
-"""
-
 
 # MAGIC 8-BALL HOMEWORK
 
@@ -27,9 +21,7 @@ def magiceightball(random_number):
        result = "Try Again."
    history.append(result)
    print(result)
-    
-
-# 8 ball 
+     
 print("---- Welcome to the Magic 8 Ball! -----\n")
 
 while True: 
