@@ -12,30 +12,22 @@ import random
 
 history = ["History:"]
 
-def magiceightball(random_number):
-    
+def magiceightball(random_number):    
    if random_number == 1:
        result = "Yes!"
-
    if random_number == 2:
        result = "No."
-
    if random_number == 3:
        result = "Maybe."
-
    if random_number == 4:
        result = "Possibly."
-
    if random_number == 5: 
        result = "You may rely on it."
-
    if random_number == 6: 
        result = "Try Again."
-
    history.append(result)
    print(result)
     
- 
 
 # 8 ball 
 print("---- Welcome to the Magic 8 Ball! -----\n")
