@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Bens Space!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <h1 id="header">Welcome!</h1>
+    <p>@author: Ben Grudzien</p>
+    <img src="file:///C:/Users/Ben/Pictures/github_pfp.PNG" alt="My avatar">
+    <input type="button" value="Change Color" onclick="color('#1FDE2C')">
+    
+    <button onclick="promptfunc()">Try it</button>
+    <p id="prompt"></p>
+
+    <script> 
+    document.getElementById("header").innerHTML = localStorage.getItem("header_name");
+    document.getElementById("header").style.backgroundColor = localStorage.getItem("header_color")
+
+    function color(col){
+    document.getElementById("header").style.backgroundColor=col;
+    }
+    function promptfunc(){
+
+        let name = prompt("What is your name?");
+        let hcolor = prompt("What is your favorite color?");
+
+        window.localStorage.setItem("header_name", name); // (key, value)
+        window.localStorage.setItem("header_color", hcolor); // Note arbitrary name
+
+        
+        if (name != null){
+            
+           document.getElementById("header").innerHTML = "Hey, my name is " + name;
+        }
+
+        
+        if (hcolor != null){
+           document.getElementById("header").style.backgroundColor = hcolor
+           
+        }
+
+
+    
+       // alert(window.localStorage.getItem("header_name", name));
+     //alert(window.localStorage.getItem("header_color", hcolor));
+
+    }
+    </script>
+
+<!--
+
+        This is better javascript maybe, and put it in head tags.
+        This code changes anything with output header to green
+        based on the button id "changeGreen"
+
+<script>
+document.getElementById("changeGreen").onclick = function(){
+	document.getElementById("output").style.color = 'green';
+}
+document.getElementById("changeRed").onclick = function(){
+	document.getElementById("output").style.color = 'red';
+}
+</script>
+    
+--> 
+
+</body>
+
+</html>

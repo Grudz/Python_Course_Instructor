@@ -1,0 +1,16 @@
+h1 {
+    color: blue;
+    background-color: grey;
+    margin-block-end: 100px;
+}
+
+body{
+    color: gray;
+    background-color: lightgoldenrodyellow;
+    
+}
+
+button {
+    background-color: lightgreen;
+    display: block;
+}

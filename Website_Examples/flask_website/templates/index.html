@@ -1,0 +1,33 @@
+<!doctype html> <!-- Might not be neccesary-->
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock %}
+{% block content %}
+<h1>Test</h1>
+{% endblock %}
+
+
+
+<!-- <!doctype html> <!-- Might not be neccesary-->
+<!--<html>
+
+<head>
+	<title>Home Page</title>
+	</head>
+	<body>
+		<h1>Home</h1>
+		<p>{{content}}</p> <!-- compare to loop -->
+	<!--	<p>{{r}}</p>
+		{% for x in content%} <!-- Embedd python code -->
+			<!--<p>{{x}}</p> <!-- Compare to above -->
+	<!--	{% endfor %}
+	</body>
+</html>
+
+
+		{% for x in range(0,10)%}  Embedd python code 
+			{% if x % 2 == 1 %}  Prints odd numbers
+			    <p>Hello</p>
+				<p>{{x}}</p>
+			{% endif %}
+		{% endfor %}
+-->

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %} 
+	Home Page
+{% endblock %}
+{% block content %}
+	<h1 style="text-align:center;">Oakland University ~ Electrical Engineering</h1>
+	<h1 style="text-align:center;">Ben Grudzien</h1>
+	<center>
+	<image src="{{ url_for('static', filename='images/website_pfp.gif')}}">
+	</center>
+	<h2 style="text-align:center;">|| Electronic Lab Testing/Debugging || Schematic/PCB Design || ROS, C++, Linux || Embedded Software ||</h2>
+	&nbsp;&nbsp;
+	<h4 style="text-align:center;">Pursuing a Career in the Autonomous Vehicle/Robotic Space. I am a 3 year student athlete on OU's D1
+	ACHA Hockey team. I have almost a year and a half of professional engineering experience. I am passionate about engineering and this website
+    demonstrates cool projects I've made in school and in my free time.</h4>
+	<h5 style=" position: absolute; bottom: 75; left: 0; width: 100%; text-align: center;">CONTACT/SOCIAL MEDIA</h5>
+	<h5 style=" position: absolute; bottom: 50; left: 0; width: 100%; text-align: center;">Email: bgrudzien@oakland.edu</h5>
+	<a href="https://www.linkedin.com/in/bengrudzien/">
+	<h5 style=" position: absolute; bottom: 25; left: 0; width: 100%; text-align: center;">LinkedIn</h5>
+    </a>
+    <a href="https://github.com/Grudz">
+	<h5 style=" position: absolute; bottom: 0; left: 0; width: 100%; text-align: center;">GitHub</h5>
+{% endblock %}
